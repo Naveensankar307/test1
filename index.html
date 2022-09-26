@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Magic project</title>
+  </head>
+  <body>
+    <!-- navigation bar -->
+    <header>
+      <nav class="navbar">
+        <div class="navbar__brand">
+          <img src="assets/logo.png" alt="logo" class="navbar__logo" />
+        </div>
+        <div class="navbar__nav__button">
+          <button class="nav__item button__primary">Order food</button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- top or hero content -->
+    <main class="container">
+      <section class="hero__container">
+        <div class="hero__image__container">
+          <img src="assets/hero.jpg" alt="hero image" class="hero__image" />
+          <!-- <img src="assets/svg/heroShape.svg" alt="hero image" class="hero__image__pattern">  -->
+          <!-- <img src="assets/svg/herobgpattren.svg" alt="hero image" class="hero__image__pattern">   -->
+        </div>
+        <div class="hero__discription">
+          <h1 class="hero__text">
+            Order food from favourite restaurants near you
+          </h1>
+          <button class="button__primary">Order Now</button>
+        </div>
+      </section>
+      <!-- explore menu -->
+      <section class="explore__menu__container">
+        <h1 class="explore__menu__text">Explore Our menu</h1>
+        <div class="explore__menu__gradiant__bg"></div>
+        <div class="explore__menu__list">
+          <!-- Burger -->
+          <div class="food__card">
+            <div class="food__card__image__container">
+              <img src="assets/burger.jpg" alt="burger" class="food__image" />
+            </div>
+            <div class="food__card__description">
+              <h3>Burger</h3>
+              <p>
+                Burger King, Mcdonalds, Burger Place
+                <span style="color: red">+3</span>
+              </p>
+            </div>
+          </div>
+          <!-- Pizza -->
+          <div class="food__card" id="pizza__card">
+            <div class="food__card__image__container">
+              <img src="assets/pizza.jpg" alt="pizza" class="food__image" />
+            </div>
+            <div class="food__card__description">
+              <h3>Pizza</h3>
+              <p>Pizza Hut, Domino's Pizza<span style="color: red">+3</span></p>
+            </div>
+          </div>
+          <!-- Pizza -->
+          <div class="food__card">
+            <div class="food__card__image__container">
+              <img
+                src="assets/iceCream.jpg"
+                alt="iceCream"
+                class="food__image"
+              />
+            </div>
+            <div class="food__card__description">
+              <h3>iceCream</h3>
+              <p>Baskin & Robins, Ibaco<span style="color: red">+3</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="explore__menu__view__more">
+          <button class="button__primary">View more</button>
+        </div>
+      </section>
+
+      <!-- Restaurant list -->
+      <section class="restaurant__container">
+        <h1 class="restaurant_text">Order From 100s of restaurants</h1>
+        <div class="restaurant__images__container">
+          <div class="restaurant__images__row__one">
+            <div class="restaurant__image__1">
+              <img
+                src="assets/restaurant1.jpg"
+                alt="restaurant1"
+                class="restaurant__1"
+              />
+            </div>
+            <div class="restaurant__image__2">
+              <img
+                src="assets/restaurant2.jpg"
+                alt="restaurant2"
+                class="restaurant__2"
+              />
+            </div>
+          </div>
+          <div class="restaurant__images__row__two">
+            <div class="restaurant__image__3">
+              <img
+                src="assets/restaurant3.jpg"
+                alt="restaurant3"
+                class="restaurant__3"
+              />
+            </div>
+            <div class="restaurant__image__4">
+              <img
+                src="assets/restaurant4.jpg"
+                alt="restaurant4"
+                class="restaurant__4"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- updated -->
+      <section class="updates__container">
+        <h1 class="update__text">Stay Updated</h1>
+        <div class="updates__contant">
+              <input
+                type="email"
+                placeholder="eg:zomato@email.com"
+                class="updates__email"
+              />
+              <button class="button__primary update__button">Get updates</button>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__heading">
+            <h1>zomato</h1>
+        </div>
+        <div class="footer__items">
+            <ul>
+                <li>Prizing</li>
+                <li>Terms and Conditions</li>
+                <li>Partnership</li>
+                <li>Carrer</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
