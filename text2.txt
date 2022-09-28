@@ -1,2 +1,2 @@
-this is for master branch
-hello
+yeah this is a new release
+enjoy the new version
